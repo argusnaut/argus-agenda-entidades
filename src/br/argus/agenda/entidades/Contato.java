@@ -3,7 +3,7 @@ package br.argus.agenda.entidades;
 public class Contato {
 
 	private String nome;
-	private int idade;
+	private String email;
 	private String telefone;
 
 	public String getNome() {
@@ -14,12 +14,12 @@ public class Contato {
 		this.nome = nome;
 	}
 
-	public int getIdade() {
-		return idade;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setIdade(int idade) {
-		this.idade = idade;
+	public void setEmail(String email) {
+		this.email = email;
 	}
 
 	public String getTelefone() {
